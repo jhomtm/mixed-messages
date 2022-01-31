@@ -34,7 +34,7 @@ for ( let msg in message) {
           inspireMe.push(`Good morning, ${message[msg][select]}!`)
           break
         case 'ritual':
-          inspireMe.push(`You can: "${message[msg][select]}".`)
+          inspireMe.push(`Go ahead: "${message[msg][select]}".`)
           break
         case 'quote':
           inspireMe.push(`Your Daily dose of Inspiration: "${message[msg][select]}"`)
@@ -43,4 +43,20 @@ for ( let msg in message) {
           inspireMe.push('Just Do It!')
 }
 }
-console.log(inspireMe);
+function formatting() {
+    console.log(' ');
+    console.log('======================');
+    console.log(inspireMe[0]);
+    console.log('======================');
+    console.log(' ');
+    console.log(inspireMe[1]);
+    console.log(' ');
+    console.log (`<<<<<<====================================================================>>>>>>`)
+    console.log(' ');
+    console.log(inspireMe[2]);  
+    console.log(' ');
+    console.log (`<<<<<<====================================================================>>>>>>`)
+    console.log(' ');
+    
+} 
+formatting();
