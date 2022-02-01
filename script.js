@@ -41,20 +41,17 @@ for ( let msg in message) {
           break
         default:
           inspireMe.push('Just Do It!')
+          break
 }
 }
 function formatting() {
-    console.log(' ');
+    console.log('\nInspire Me today\n');
     console.log('======================');
-    console.log(inspireMe[0]);
+    console.log(`\n ${inspireMe[0]} \n`);
     console.log('======================');
-    console.log(' ');
-    console.log(inspireMe[1]);
-    console.log(' ');
+    console.log(`\n ${inspireMe[1]} \n`);
     console.log (`<<<<<<====================================================================>>>>>>`)
-    console.log(' ');
-    console.log(inspireMe[2]);  
-    console.log(' ');
+    console.log(`\n ${inspireMe[2]} \n`);   
     console.log (`<<<<<<====================================================================>>>>>>`)
     console.log(' ');
     
